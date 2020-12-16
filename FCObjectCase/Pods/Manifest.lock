@@ -1,0 +1,20 @@
+PODS:
+  - FCCollectionViewLayout (0.0.1):
+    - FCCollectionViewLayout/ObjC (= 0.0.1)
+    - FCCollectionViewLayout/Swift (= 0.0.1)
+  - FCCollectionViewLayout/ObjC (0.0.1)
+  - FCCollectionViewLayout/Swift (0.0.1)
+
+DEPENDENCIES:
+  - FCCollectionViewLayout
+
+SPEC REPOS:
+  trunk:
+    - FCCollectionViewLayout
+
+SPEC CHECKSUMS:
+  FCCollectionViewLayout: f5c888fe63a07d41ebdf521e256af86c5cabdd23
+
+PODFILE CHECKSUM: 2efa693f4864ef52b6b6bd8eb23336f887a64d41
+
+COCOAPODS: 1.9.1
