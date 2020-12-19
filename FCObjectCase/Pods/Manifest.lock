@@ -1,20 +1,48 @@
 PODS:
+  - CTMediator (44)
+  - FCBaseKit (0.0.1)
+  - FCCategoryOCKit (0.1.15)
   - FCCollectionViewLayout (0.0.1):
     - FCCollectionViewLayout/ObjC (= 0.0.1)
     - FCCollectionViewLayout/Swift (= 0.0.1)
   - FCCollectionViewLayout/ObjC (0.0.1)
   - FCCollectionViewLayout/Swift (0.0.1)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - CTMediator
+  - FCBaseKit (from `https://github.com/Q007shi/FCBaseKit.git`)
+  - FCCategoryOCKit (from `https://github.com/Q007shi/FCCategoryOCKit.git`)
   - FCCollectionViewLayout
+  - Masonry
 
 SPEC REPOS:
   trunk:
+    - CTMediator
     - FCCollectionViewLayout
+    - Masonry
+
+EXTERNAL SOURCES:
+  FCBaseKit:
+    :git: https://github.com/Q007shi/FCBaseKit.git
+  FCCategoryOCKit:
+    :git: https://github.com/Q007shi/FCCategoryOCKit.git
+
+CHECKOUT OPTIONS:
+  FCBaseKit:
+    :commit: 1b50bc8a4af47b5dded591b8dedd9a4a34c0cd95
+    :git: https://github.com/Q007shi/FCBaseKit.git
+  FCCategoryOCKit:
+    :commit: 19ac58cce20e29bcbd7835ff28cd6cc4ae76ab6f
+    :git: https://github.com/Q007shi/FCCategoryOCKit.git
 
 SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  FCBaseKit: 259a074ae4c802481a598dd5bf8867e63c5bdd75
+  FCCategoryOCKit: 05a9d0ab9a8ec644d4e07d73efd6caede804138a
   FCCollectionViewLayout: f5c888fe63a07d41ebdf521e256af86c5cabdd23
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 2efa693f4864ef52b6b6bd8eb23336f887a64d41
+PODFILE CHECKSUM: 38727d21b71b164a74f9afbcc917a8d3efc84386
 
 COCOAPODS: 1.9.1

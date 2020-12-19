@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553EFE72258B58C00045EFBF /* FCNumberFormatterSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 553EFE71258B58C00045EFBF /* FCNumberFormatterSectionModel.m */; };
+		553EFE7B258B59620045EFBF /* FCObjectCaseTableViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 553EFE7A258B59620045EFBF /* FCObjectCaseTableViewPresenter.m */; };
+		553EFE80258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 553EFE7F258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.m */; };
+		55840120258D934F00DE9849 /* FCObjectCaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584011F258D934F00DE9849 /* FCObjectCaseTableViewCell.m */; };
+		55840126258D985A00DE9849 /* Target_Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 55840125258D985A00DE9849 /* Target_Object.m */; };
 		55F1806E2588BE1C00C9ADF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F1806D2588BE1C00C9ADF6 /* AppDelegate.m */; };
 		55F180712588BE1C00C9ADF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F180702588BE1C00C9ADF6 /* SceneDelegate.m */; };
 		55F180742588BE1C00C9ADF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F180732588BE1C00C9ADF6 /* ViewController.m */; };
@@ -14,10 +19,21 @@
 		55F180792588BE2700C9ADF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F180782588BE2700C9ADF6 /* Assets.xcassets */; };
 		55F1807C2588BE2800C9ADF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1807A2588BE2800C9ADF6 /* LaunchScreen.storyboard */; };
 		55F1807F2588BE2800C9ADF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F1807E2588BE2800C9ADF6 /* main.m */; };
+		55F5DF7E258B05150030A0C5 /* FCNumberFormatterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5DF7D258B05150030A0C5 /* FCNumberFormatterVC.m */; };
 		D4D4AF4DFEE0496579769C0F /* Pods_FCObjectCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEB7BCDF4B77D9EF88C724B /* Pods_FCObjectCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553EFE70258B58C00045EFBF /* FCNumberFormatterSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCNumberFormatterSectionModel.h; sourceTree = "<group>"; };
+		553EFE71258B58C00045EFBF /* FCNumberFormatterSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCNumberFormatterSectionModel.m; sourceTree = "<group>"; };
+		553EFE79258B59620045EFBF /* FCObjectCaseTableViewPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCObjectCaseTableViewPresenter.h; sourceTree = "<group>"; };
+		553EFE7A258B59620045EFBF /* FCObjectCaseTableViewPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCObjectCaseTableViewPresenter.m; sourceTree = "<group>"; };
+		553EFE7E258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCObjectCaseCollectionViewPresenter.h; sourceTree = "<group>"; };
+		553EFE7F258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCObjectCaseCollectionViewPresenter.m; sourceTree = "<group>"; };
+		5584011E258D934F00DE9849 /* FCObjectCaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCObjectCaseTableViewCell.h; sourceTree = "<group>"; };
+		5584011F258D934F00DE9849 /* FCObjectCaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCObjectCaseTableViewCell.m; sourceTree = "<group>"; };
+		55840124258D985A00DE9849 /* Target_Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Object.h; sourceTree = "<group>"; };
+		55840125258D985A00DE9849 /* Target_Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Object.m; sourceTree = "<group>"; };
 		55F180692588BE1C00C9ADF6 /* FCObjectCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCObjectCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F1806C2588BE1C00C9ADF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55F1806D2588BE1C00C9ADF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +46,8 @@
 		55F1807B2588BE2800C9ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F1807D2588BE2800C9ADF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F1807E2588BE2800C9ADF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55F5DF7C258B05150030A0C5 /* FCNumberFormatterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCNumberFormatterVC.h; sourceTree = "<group>"; };
+		55F5DF7D258B05150030A0C5 /* FCNumberFormatterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCNumberFormatterVC.m; sourceTree = "<group>"; };
 		69E0160C3627CA3F21860CB6 /* Pods-FCObjectCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCObjectCase.debug.xcconfig"; path = "Target Support Files/Pods-FCObjectCase/Pods-FCObjectCase.debug.xcconfig"; sourceTree = "<group>"; };
 		7F898CBBA34A1B7F87B78BA6 /* Pods-FCObjectCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCObjectCase.release.xcconfig"; path = "Target Support Files/Pods-FCObjectCase/Pods-FCObjectCase.release.xcconfig"; sourceTree = "<group>"; };
 		8CEB7BCDF4B77D9EF88C724B /* Pods_FCObjectCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCObjectCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +73,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		553EFE6E258B580A0045EFBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55F5DF7C258B05150030A0C5 /* FCNumberFormatterVC.h */,
+				55F5DF7D258B05150030A0C5 /* FCNumberFormatterVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		553EFE6F258B582A0045EFBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				553EFE70258B58C00045EFBF /* FCNumberFormatterSectionModel.h */,
+				553EFE71258B58C00045EFBF /* FCNumberFormatterSectionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		553EFE76258B591E0045EFBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		553EFE77258B593B0045EFBF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5584011D258D931F00DE9849 /* View */,
+				553EFE78258B593B0045EFBF /* Presenter */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		553EFE78258B593B0045EFBF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				553EFE79258B59620045EFBF /* FCObjectCaseTableViewPresenter.h */,
+				553EFE7A258B59620045EFBF /* FCObjectCaseTableViewPresenter.m */,
+				553EFE7E258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.h */,
+				553EFE7F258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5584011D258D931F00DE9849 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5584011E258D934F00DE9849 /* FCObjectCaseTableViewCell.h */,
+				5584011F258D934F00DE9849 /* FCObjectCaseTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55840123258D983B00DE9849 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				55840124258D985A00DE9849 /* Target_Object.h */,
+				55840125258D985A00DE9849 /* Target_Object.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		55F180602588BE1C00C9ADF6 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +157,7 @@
 		55F1806B2588BE1C00C9ADF6 /* FCObjectCase */ = {
 			isa = PBXGroup;
 			children = (
+				55F5DF78258B03DD0030A0C5 /* Foundation */,
 				55F1806C2588BE1C00C9ADF6 /* AppDelegate.h */,
 				55F1806D2588BE1C00C9ADF6 /* AppDelegate.m */,
 				55F1806F2588BE1C00C9ADF6 /* SceneDelegate.h */,
@@ -91,13 +173,48 @@
 			path = FCObjectCase;
 			sourceTree = "<group>";
 		};
+		55F5DF78258B03DD0030A0C5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				553EFE77258B593B0045EFBF /* Base */,
+				55F5DF79258B03DD0030A0C5 /* NSObject */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		55F5DF79258B03DD0030A0C5 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				55840123258D983B00DE9849 /* Router */,
+				55F5DF7A258B03DD0030A0C5 /* NSFormatter */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		55F5DF7A258B03DD0030A0C5 /* NSFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				55F5DF7B258B03DD0030A0C5 /* NSNumberFormatter */,
+			);
+			path = NSFormatter;
+			sourceTree = "<group>";
+		};
+		55F5DF7B258B03DD0030A0C5 /* NSNumberFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				553EFE76258B591E0045EFBF /* View */,
+				553EFE6F258B582A0045EFBF /* Model */,
+				553EFE6E258B580A0045EFBF /* Controller */,
+			);
+			path = NSNumberFormatter;
+			sourceTree = "<group>";
+		};
 		DE533CF57662706040A39B16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				69E0160C3627CA3F21860CB6 /* Pods-FCObjectCase.debug.xcconfig */,
 				7F898CBBA34A1B7F87B78BA6 /* Pods-FCObjectCase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -216,7 +333,13 @@
 			files = (
 				55F180742588BE1C00C9ADF6 /* ViewController.m in Sources */,
 				55F1806E2588BE1C00C9ADF6 /* AppDelegate.m in Sources */,
+				553EFE7B258B59620045EFBF /* FCObjectCaseTableViewPresenter.m in Sources */,
+				55840126258D985A00DE9849 /* Target_Object.m in Sources */,
+				553EFE80258B59870045EFBF /* FCObjectCaseCollectionViewPresenter.m in Sources */,
+				553EFE72258B58C00045EFBF /* FCNumberFormatterSectionModel.m in Sources */,
 				55F1807F2588BE2800C9ADF6 /* main.m in Sources */,
+				55F5DF7E258B05150030A0C5 /* FCNumberFormatterVC.m in Sources */,
+				55840120258D934F00DE9849 /* FCObjectCaseTableViewCell.m in Sources */,
 				55F180712588BE1C00C9ADF6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

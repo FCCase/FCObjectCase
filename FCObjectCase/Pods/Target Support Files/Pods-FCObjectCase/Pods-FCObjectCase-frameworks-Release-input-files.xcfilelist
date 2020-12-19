@@ -1,2 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-FCObjectCase/Pods-FCObjectCase-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/FCBaseKit/FCBaseKit.framework
+${BUILT_PRODUCTS_DIR}/FCCategoryOCKit/FCCategoryOCKit.framework
 ${BUILT_PRODUCTS_DIR}/FCCollectionViewLayout/FCCollectionViewLayout.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

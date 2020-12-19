@@ -6,5 +6,10 @@ target 'FCObjectCase' do
   use_frameworks!
 
   pod 'FCCollectionViewLayout'
+  
+  pod 'Masonry'
+  pod 'CTMediator'
+  pod 'FCBaseKit', :git => 'https://github.com/Q007shi/FCBaseKit.git'
+  pod 'FCCategoryOCKit', :git => 'https://github.com/Q007shi/FCCategoryOCKit.git'
 
 end
